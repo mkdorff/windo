@@ -1,0 +1,975 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C70B6D11DACDE0E7083A165 /* libPods-Windo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD68DE259A43D49C3A11CDAA /* libPods-Windo.a */; };
+		630AC0C11CB6EAAF0016E3C7 /* ScrubberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630AC0C01CB6EAAF0016E3C7 /* ScrubberCell.swift */; };
+		631B59D11D047E2500BC32E8 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631B59CE1D047E2500BC32E8 /* FBSDKCoreKit.framework */; };
+		631B59D21D047E2600BC32E8 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631B59CF1D047E2500BC32E8 /* FBSDKLoginKit.framework */; };
+		631B59D31D047E2600BC32E8 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631B59D01D047E2500BC32E8 /* FBSDKShareKit.framework */; };
+		631B59D51D04802B00BC32E8 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631B59D41D04802B00BC32E8 /* UserManager.swift */; };
+		6321D4A41CA1E48300CDB203 /* InviteeHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6321D4A31CA1E48300CDB203 /* InviteeHeaderCell.swift */; };
+		63290F521D2DED9C0099741A /* PhoneNumberInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63290F511D2DED9C0099741A /* PhoneNumberInputView.swift */; };
+		63290F541D2DEDAB0099741A /* PhoneNumberInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63290F531D2DEDAB0099741A /* PhoneNumberInputViewController.swift */; };
+		63290F571D2DEE310099741A /* WindoNumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63290F561D2DEE310099741A /* WindoNumberPad.swift */; };
+		63290F591D2DEE680099741A /* WindoNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63290F581D2DEE680099741A /* WindoNumber.swift */; };
+		63290F5B1D2E0EF90099741A /* InputCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63290F5A1D2E0EF90099741A /* InputCharacter.swift */; };
+		632A4F5E1CB312BF001D6983 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632A4F5D1CB312BF001D6983 /* TutorialViewController.swift */; };
+		632A4F601CB312C8001D6983 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632A4F5F1CB312C8001D6983 /* TutorialView.swift */; };
+		632A4F651CB37E76001D6983 /* ConnectingCirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632A4F641CB37E76001D6983 /* ConnectingCirclesView.swift */; };
+		634D20671C93905500A1D4B5 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634D20661C93905500A1D4B5 /* ContainerViewController.swift */; };
+		634D20691C93906A00A1D4B5 /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634D20681C93906A00A1D4B5 /* CenterViewController.swift */; };
+		634D206B1C93907F00A1D4B5 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634D206A1C93907F00A1D4B5 /* SideMenuViewController.swift */; };
+		634D206D1C93908F00A1D4B5 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634D206C1C93908F00A1D4B5 /* SideMenuView.swift */; };
+		634EEFAB1C8CA2B7008591D3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634EEFAA1C8CA2B7008591D3 /* QuartzCore.framework */; };
+		6350145F1D050F7C00864A73 /* IncomingChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6350145E1D050F7C00864A73 /* IncomingChatCell.swift */; };
+		635014611D050F8700864A73 /* OutgoingChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635014601D050F8700864A73 /* OutgoingChatCell.swift */; };
+		6353E1091CBC1909008117B3 /* EventResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6353E1081CBC1909008117B3 /* EventResultsViewController.swift */; };
+		6353E10B1CBC1911008117B3 /* EventResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6353E10A1CBC1911008117B3 /* EventResultsView.swift */; };
+		6353E10D1CBC1983008117B3 /* EventResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6353E10C1CBC1983008117B3 /* EventResultsCell.swift */; };
+		6353E10F1CBC1F53008117B3 /* ResponseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6353E10E1CBC1F53008117B3 /* ResponseCell.swift */; };
+		6353E1111CBC5068008117B3 /* ResultsFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6353E1101CBC5068008117B3 /* ResultsFilterView.swift */; };
+		6353E1131CBC6318008117B3 /* UIString+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6353E1121CBC6318008117B3 /* UIString+.swift */; };
+		635873901CF8924900B9B6FD /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6358738F1CF8924900B9B6FD /* SplashScreenView.swift */; };
+		635873921CF8971800B9B6FD /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635873911CF8971800B9B6FD /* DataProvider.swift */; };
+		6358C0651C98CF8400C1DD0B /* InviteeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6358C0641C98CF8400C1DD0B /* InviteeCell.swift */; };
+		635996901D0B76DD00F506D1 /* UIViewController+Windo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6359968F1D0B76DD00F506D1 /* UIViewController+Windo.swift */; };
+		636A9F6C1CA2192D00293BE9 /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A9F6B1CA2192D00293BE9 /* InviteViewController.swift */; };
+		636A9F6E1CA2193600293BE9 /* InviteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636A9F6D1CA2193600293BE9 /* InviteView.swift */; };
+		63723CD31D300943008F4502 /* PhoneNumberInputLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63723CD21D300943008F4502 /* PhoneNumberInputLabel.swift */; };
+		637B5BD21D07D6FB007C8920 /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637B5BD11D07D6FB007C8920 /* MessageInputView.swift */; };
+		6383D8491CA43A61008F23B8 /* WindoCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383D8481CA43A61008F23B8 /* WindoCalendarView.swift */; };
+		6383D84D1CA463BB008F23B8 /* NSDate+Windo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383D84C1CA463BB008F23B8 /* NSDate+Windo.swift */; };
+		6383D84F1CA4AD46008F23B8 /* WindoTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383D84E1CA4AD46008F23B8 /* WindoTimeView.swift */; };
+		6383D8511CA4AD54008F23B8 /* WindoTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383D8501CA4AD54008F23B8 /* WindoTimeViewController.swift */; };
+		6383D8531CA4AD6C008F23B8 /* WindoTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383D8521CA4AD6C008F23B8 /* WindoTimeCell.swift */; };
+		6383D8571CA4AE8F008F23B8 /* WindoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383D8561CA4AE8F008F23B8 /* WindoCollectionCell.swift */; };
+		6392EF641C974CDA003C29CE /* EventHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6392EF631C974CDA003C29CE /* EventHeaderCell.swift */; };
+		6392EF661C9766DE003C29CE /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6392EF651C9766DE003C29CE /* CreateEventViewController.swift */; };
+		6392EF691C9766F6003C29CE /* CreateEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6392EF681C9766F6003C29CE /* CreateEventView.swift */; };
+		6392EF6B1C976732003C29CE /* EventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6392EF6A1C976732003C29CE /* EventDetailsViewController.swift */; };
+		6392EF6D1C976740003C29CE /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6392EF6C1C976740003C29CE /* EventDetailsView.swift */; };
+		6392EF6F1C97674F003C29CE /* EventMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6392EF6E1C97674F003C29CE /* EventMessagesViewController.swift */; };
+		6392EF711C97675A003C29CE /* EventMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6392EF701C97675A003C29CE /* EventMessagesView.swift */; };
+		6394638B1CB6B5C2008438C9 /* TimeSelectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394638A1CB6B5C2008438C9 /* TimeSelectCollectionViewCell.swift */; };
+		6395B1301C741969008D0ED5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6395B12F1C741969008D0ED5 /* AppDelegate.swift */; };
+		6395B1321C741969008D0ED5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6395B1311C741969008D0ED5 /* LoginViewController.swift */; };
+		6395B1381C741969008D0ED5 /* Windo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6395B1361C741969008D0ED5 /* Windo.xcdatamodeld */; };
+		6395B13A1C741969008D0ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6395B1391C741969008D0ED5 /* Assets.xcassets */; };
+		6395B13D1C741969008D0ED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6395B13B1C741969008D0ED5 /* LaunchScreen.storyboard */; };
+		6395B1451C741ADB008D0ED5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6395B1441C741ADB008D0ED5 /* LoginView.swift */; };
+		6395B1471C741AFE008D0ED5 /* APConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6395B1461C741AFE008D0ED5 /* APConstraints.swift */; };
+		6395B14B1C741BDD008D0ED5 /* UIColor+Windo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6395B14A1C741BDD008D0ED5 /* UIColor+Windo.swift */; };
+		6395B14D1C741BEB008D0ED5 /* GHButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6395B14C1C741BEB008D0ED5 /* GHButton.swift */; };
+		6395B1511C741C8B008D0ED5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6395B1501C741C8B008D0ED5 /* HomeViewController.swift */; };
+		6395B1531C741C97008D0ED5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6395B1521C741C97008D0ED5 /* HomeView.swift */; };
+		6395B1561C741D3F008D0ED5 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6395B1551C741D3F008D0ED5 /* EventCell.swift */; };
+		6395B15D1C742181008D0ED5 /* WindoConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6395B15C1C742181008D0ED5 /* WindoConstants.swift */; };
+		639973E71D303964002C1845 /* CodeInputLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639973E61D303964002C1845 /* CodeInputLabel.swift */; };
+		639973E91D3049E5002C1845 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639973E81D3049E5002C1845 /* AuthManager.swift */; };
+		639973EC1D30567D002C1845 /* WindoLoadingIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639973EB1D30567D002C1845 /* WindoLoadingIcon.swift */; };
+		639973EE1D306C49002C1845 /* Shakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639973ED1D306C49002C1845 /* Shakes.swift */; };
+		639973F11D3081EB002C1845 /* UIControl+Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639973F01D3081EB002C1845 /* UIControl+Target.swift */; };
+		639973F31D3083D6002C1845 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639973F21D3083D6002C1845 /* Alerts.swift */; };
+		63A28B0C1CA334F5000826DC /* CreateTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A28B0B1CA334F5000826DC /* CreateTabBarViewController.swift */; };
+		63A28B141CA36EB0000826DC /* CalendarDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A28B131CA36EB0000826DC /* CalendarDayView.swift */; };
+		63A8683D1D006987002978F7 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8683C1D006986002978F7 /* UserProfileViewController.swift */; };
+		63A8683F1D006990002978F7 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8683E1D006990002978F7 /* UserProfileView.swift */; };
+		63A868421D0069AD002978F7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A868411D0069AD002978F7 /* SettingsViewController.swift */; };
+		63A868441D0069B6002978F7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A868431D0069B6002978F7 /* SettingsView.swift */; };
+		63A868461D009374002978F7 /* WindoAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A868451D009374002978F7 /* WindoAlertView.swift */; };
+		63AD31E31C978EF70086B919 /* GroupMemberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AD31E21C978EF70086B919 /* GroupMemberCell.swift */; };
+		63AD31E51C979EFE0086B919 /* DetailsTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AD31E41C979EFE0086B919 /* DetailsTabBarController.swift */; };
+		63B2CF9A1D14B765003F4676 /* WindoProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B2CF991D14B765003F4676 /* WindoProfileImageView.swift */; };
+		63B35D401CF88700008761F5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B35D3F1CF88700008761F5 /* Event.swift */; };
+		63B35D421CF8871E008761F5 /* Windo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B35D411CF8871E008761F5 /* Windo.swift */; };
+		63B35D461CF88783008761F5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B35D451CF88783008761F5 /* User.swift */; };
+		63B35D481CF889A7008761F5 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B35D471CF889A7008761F5 /* Message.swift */; };
+		63B35D4A1CF88D03008761F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63B35D491CF88D03008761F5 /* GoogleService-Info.plist */; };
+		63E7E17D1C939A8000AF6301 /* Graphik-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63E7E1721C939A5A00AF6301 /* Graphik-Black.otf */; };
+		63E7E17E1C939A8000AF6301 /* Graphik-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63E7E1731C939A5A00AF6301 /* Graphik-Bold.otf */; };
+		63E7E17F1C939A8000AF6301 /* Graphik-Extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63E7E1741C939A5A00AF6301 /* Graphik-Extralight.otf */; };
+		63E7E1801C939A8000AF6301 /* Graphik-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63E7E1751C939A5A00AF6301 /* Graphik-Light.otf */; };
+		63E7E1811C939A8000AF6301 /* Graphik-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63E7E1761C939A5A00AF6301 /* Graphik-Medium.otf */; };
+		63E7E1821C939A8000AF6301 /* Graphik-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63E7E1771C939A5A00AF6301 /* Graphik-Regular.otf */; };
+		63E7E1831C939A8000AF6301 /* Graphik-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63E7E1781C939A5A00AF6301 /* Graphik-Semibold.otf */; };
+		63E7E1841C939A8000AF6301 /* Graphik-Super.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63E7E1791C939A5A00AF6301 /* Graphik-Super.otf */; };
+		63E7E1851C939A8000AF6301 /* Graphik-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63E7E17A1C939A5A00AF6301 /* Graphik-Thin.otf */; };
+		63E7E1871C93A49B00AF6301 /* UIFont+Windo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E7E1861C93A49B00AF6301 /* UIFont+Windo.swift */; };
+		63EA86C51CA9A4640046963B /* WindoKeyboardAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EA86C41CA9A4640046963B /* WindoKeyboardAccessoryView.swift */; };
+		63FF08EE1CB4482D00255A4A /* TimeSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF08ED1CB4482D00255A4A /* TimeSelectViewController.swift */; };
+		63FF08F01CB4483500255A4A /* TimeSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF08EF1CB4483500255A4A /* TimeSelectView.swift */; };
+		63FF08F31CB46EE100255A4A /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF08F21CB46EE100255A4A /* TimeView.swift */; };
+		81C5C0CC1D0A394200BD057A /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C5C0CB1D0A394200BD057A /* UserProfile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		630AC0C01CB6EAAF0016E3C7 /* ScrubberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrubberCell.swift; sourceTree = "<group>"; };
+		631B59CE1D047E2500BC32E8 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		631B59CF1D047E2500BC32E8 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		631B59D01D047E2500BC32E8 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		631B59D41D04802B00BC32E8 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		6321D4A31CA1E48300CDB203 /* InviteeHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteeHeaderCell.swift; sourceTree = "<group>"; };
+		63290F511D2DED9C0099741A /* PhoneNumberInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberInputView.swift; sourceTree = "<group>"; };
+		63290F531D2DEDAB0099741A /* PhoneNumberInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberInputViewController.swift; sourceTree = "<group>"; };
+		63290F561D2DEE310099741A /* WindoNumberPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindoNumberPad.swift; sourceTree = "<group>"; };
+		63290F581D2DEE680099741A /* WindoNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindoNumber.swift; sourceTree = "<group>"; };
+		63290F5A1D2E0EF90099741A /* InputCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputCharacter.swift; sourceTree = "<group>"; };
+		632A4F5D1CB312BF001D6983 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		632A4F5F1CB312C8001D6983 /* TutorialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		632A4F641CB37E76001D6983 /* ConnectingCirclesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectingCirclesView.swift; sourceTree = "<group>"; };
+		634D20661C93905500A1D4B5 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		634D20681C93906A00A1D4B5 /* CenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+		634D206A1C93907F00A1D4B5 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		634D206C1C93908F00A1D4B5 /* SideMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		634EEFA61C8CA255008591D3 /* Windo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Windo-Bridging-Header.h"; sourceTree = "<group>"; };
+		634EEFAA1C8CA2B7008591D3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6350145E1D050F7C00864A73 /* IncomingChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomingChatCell.swift; sourceTree = "<group>"; };
+		635014601D050F8700864A73 /* OutgoingChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutgoingChatCell.swift; sourceTree = "<group>"; };
+		6353E1081CBC1909008117B3 /* EventResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventResultsViewController.swift; sourceTree = "<group>"; };
+		6353E10A1CBC1911008117B3 /* EventResultsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventResultsView.swift; sourceTree = "<group>"; };
+		6353E10C1CBC1983008117B3 /* EventResultsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventResultsCell.swift; sourceTree = "<group>"; };
+		6353E10E1CBC1F53008117B3 /* ResponseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseCell.swift; sourceTree = "<group>"; };
+		6353E1101CBC5068008117B3 /* ResultsFilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsFilterView.swift; sourceTree = "<group>"; };
+		6353E1121CBC6318008117B3 /* UIString+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIString+.swift"; sourceTree = "<group>"; };
+		6358738F1CF8924900B9B6FD /* SplashScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		635873911CF8971800B9B6FD /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		6358C0641C98CF8400C1DD0B /* InviteeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteeCell.swift; sourceTree = "<group>"; };
+		6359968F1D0B76DD00F506D1 /* UIViewController+Windo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Windo.swift"; sourceTree = "<group>"; };
+		636A9F6B1CA2192D00293BE9 /* InviteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
+		636A9F6D1CA2193600293BE9 /* InviteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteView.swift; sourceTree = "<group>"; };
+		63723CD21D300943008F4502 /* PhoneNumberInputLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberInputLabel.swift; sourceTree = "<group>"; };
+		637B5BD11D07D6FB007C8920 /* MessageInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
+		6383D8481CA43A61008F23B8 /* WindoCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindoCalendarView.swift; sourceTree = "<group>"; };
+		6383D84C1CA463BB008F23B8 /* NSDate+Windo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Windo.swift"; sourceTree = "<group>"; };
+		6383D84E1CA4AD46008F23B8 /* WindoTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindoTimeView.swift; sourceTree = "<group>"; };
+		6383D8501CA4AD54008F23B8 /* WindoTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindoTimeViewController.swift; sourceTree = "<group>"; };
+		6383D8521CA4AD6C008F23B8 /* WindoTimeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindoTimeCell.swift; sourceTree = "<group>"; };
+		6383D8561CA4AE8F008F23B8 /* WindoCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindoCollectionCell.swift; sourceTree = "<group>"; };
+		6392EF631C974CDA003C29CE /* EventHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventHeaderCell.swift; sourceTree = "<group>"; };
+		6392EF651C9766DE003C29CE /* CreateEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
+		6392EF681C9766F6003C29CE /* CreateEventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventView.swift; sourceTree = "<group>"; };
+		6392EF6A1C976732003C29CE /* EventDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailsViewController.swift; sourceTree = "<group>"; };
+		6392EF6C1C976740003C29CE /* EventDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailsView.swift; sourceTree = "<group>"; };
+		6392EF6E1C97674F003C29CE /* EventMessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMessagesViewController.swift; sourceTree = "<group>"; };
+		6392EF701C97675A003C29CE /* EventMessagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMessagesView.swift; sourceTree = "<group>"; };
+		6394638A1CB6B5C2008438C9 /* TimeSelectCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSelectCollectionViewCell.swift; sourceTree = "<group>"; };
+		6395B12C1C741969008D0ED5 /* Windo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Windo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6395B12F1C741969008D0ED5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Windo/AppDelegate.swift; sourceTree = "<group>"; };
+		6395B1311C741969008D0ED5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6395B1371C741969008D0ED5 /* Windo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Windo.xcdatamodel; sourceTree = "<group>"; };
+		6395B1391C741969008D0ED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6395B13C1C741969008D0ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6395B13E1C741969008D0ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6395B1441C741ADB008D0ED5 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6395B1461C741AFE008D0ED5 /* APConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APConstraints.swift; sourceTree = "<group>"; };
+		6395B14A1C741BDD008D0ED5 /* UIColor+Windo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Windo.swift"; sourceTree = "<group>"; };
+		6395B14C1C741BEB008D0ED5 /* GHButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHButton.swift; sourceTree = "<group>"; };
+		6395B1501C741C8B008D0ED5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6395B1521C741C97008D0ED5 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6395B1551C741D3F008D0ED5 /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		6395B15C1C742181008D0ED5 /* WindoConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindoConstants.swift; sourceTree = "<group>"; };
+		639973E61D303964002C1845 /* CodeInputLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeInputLabel.swift; sourceTree = "<group>"; };
+		639973E81D3049E5002C1845 /* AuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		639973EB1D30567D002C1845 /* WindoLoadingIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindoLoadingIcon.swift; sourceTree = "<group>"; };
+		639973ED1D306C49002C1845 /* Shakes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shakes.swift; sourceTree = "<group>"; };
+		639973F01D3081EB002C1845 /* UIControl+Target.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+Target.swift"; sourceTree = "<group>"; };
+		639973F21D3083D6002C1845 /* Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		63A28B0B1CA334F5000826DC /* CreateTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTabBarViewController.swift; sourceTree = "<group>"; };
+		63A28B131CA36EB0000826DC /* CalendarDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarDayView.swift; sourceTree = "<group>"; };
+		63A8683C1D006986002978F7 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		63A8683E1D006990002978F7 /* UserProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		63A868411D0069AD002978F7 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		63A868431D0069B6002978F7 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		63A868451D009374002978F7 /* WindoAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindoAlertView.swift; sourceTree = "<group>"; };
+		63AD31E21C978EF70086B919 /* GroupMemberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupMemberCell.swift; sourceTree = "<group>"; };
+		63AD31E41C979EFE0086B919 /* DetailsTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTabBarController.swift; sourceTree = "<group>"; };
+		63B2CF991D14B765003F4676 /* WindoProfileImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindoProfileImageView.swift; sourceTree = "<group>"; };
+		63B35D3F1CF88700008761F5 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		63B35D411CF8871E008761F5 /* Windo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Windo.swift; sourceTree = "<group>"; };
+		63B35D451CF88783008761F5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		63B35D471CF889A7008761F5 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		63B35D491CF88D03008761F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		63E7E1721C939A5A00AF6301 /* Graphik-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Black.otf"; sourceTree = "<group>"; };
+		63E7E1731C939A5A00AF6301 /* Graphik-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Bold.otf"; sourceTree = "<group>"; };
+		63E7E1741C939A5A00AF6301 /* Graphik-Extralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Extralight.otf"; sourceTree = "<group>"; };
+		63E7E1751C939A5A00AF6301 /* Graphik-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Light.otf"; sourceTree = "<group>"; };
+		63E7E1761C939A5A00AF6301 /* Graphik-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Medium.otf"; sourceTree = "<group>"; };
+		63E7E1771C939A5A00AF6301 /* Graphik-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Regular.otf"; sourceTree = "<group>"; };
+		63E7E1781C939A5A00AF6301 /* Graphik-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Semibold.otf"; sourceTree = "<group>"; };
+		63E7E1791C939A5A00AF6301 /* Graphik-Super.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Super.otf"; sourceTree = "<group>"; };
+		63E7E17A1C939A5A00AF6301 /* Graphik-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Thin.otf"; sourceTree = "<group>"; };
+		63E7E1861C93A49B00AF6301 /* UIFont+Windo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Windo.swift"; sourceTree = "<group>"; };
+		63EA86C41CA9A4640046963B /* WindoKeyboardAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindoKeyboardAccessoryView.swift; sourceTree = "<group>"; };
+		63FF08ED1CB4482D00255A4A /* TimeSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSelectViewController.swift; sourceTree = "<group>"; };
+		63FF08EF1CB4483500255A4A /* TimeSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSelectView.swift; sourceTree = "<group>"; };
+		63FF08F21CB46EE100255A4A /* TimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
+		81C5C0CB1D0A394200BD057A /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		BC57D5017F04E178835FEE42 /* Pods-Windo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Windo/Pods-Windo.release.xcconfig"; sourceTree = "<group>"; };
+		BD68DE259A43D49C3A11CDAA /* libPods-Windo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Windo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDFF7B6952295E245CCA8A8 /* Pods-Windo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Windo/Pods-Windo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6395B1291C741969008D0ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634EEFAB1C8CA2B7008591D3 /* QuartzCore.framework in Frameworks */,
+				631B59D11D047E2500BC32E8 /* FBSDKCoreKit.framework in Frameworks */,
+				631B59D31D047E2600BC32E8 /* FBSDKShareKit.framework in Frameworks */,
+				631B59D21D047E2600BC32E8 /* FBSDKLoginKit.framework in Frameworks */,
+				5C70B6D11DACDE0E7083A165 /* libPods-Windo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05B6C5CCC94A9C36AD97AFD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				631B59CE1D047E2500BC32E8 /* FBSDKCoreKit.framework */,
+				631B59CF1D047E2500BC32E8 /* FBSDKLoginKit.framework */,
+				631B59D01D047E2500BC32E8 /* FBSDKShareKit.framework */,
+				634EEFAA1C8CA2B7008591D3 /* QuartzCore.framework */,
+				BD68DE259A43D49C3A11CDAA /* libPods-Windo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		630D7BEB1CA87AB600D85C86 /* Old Time Selection */ = {
+			isa = PBXGroup;
+			children = (
+				6383D8501CA4AD54008F23B8 /* WindoTimeViewController.swift */,
+				6383D84E1CA4AD46008F23B8 /* WindoTimeView.swift */,
+				6383D8561CA4AE8F008F23B8 /* WindoCollectionCell.swift */,
+				6383D8521CA4AD6C008F23B8 /* WindoTimeCell.swift */,
+			);
+			name = "Old Time Selection";
+			path = Windo;
+			sourceTree = "<group>";
+		};
+		63290F551D2DEDB00099741A /* PhoneNumber Input */ = {
+			isa = PBXGroup;
+			children = (
+				63290F531D2DEDAB0099741A /* PhoneNumberInputViewController.swift */,
+				63290F511D2DED9C0099741A /* PhoneNumberInputView.swift */,
+				63290F561D2DEE310099741A /* WindoNumberPad.swift */,
+				63290F581D2DEE680099741A /* WindoNumber.swift */,
+				63290F5A1D2E0EF90099741A /* InputCharacter.swift */,
+				63723CD21D300943008F4502 /* PhoneNumberInputLabel.swift */,
+				639973E61D303964002C1845 /* CodeInputLabel.swift */,
+			);
+			name = "PhoneNumber Input";
+			sourceTree = "<group>";
+		};
+		632A4F611CB312CE001D6983 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				632A4F5D1CB312BF001D6983 /* TutorialViewController.swift */,
+				632A4F5F1CB312C8001D6983 /* TutorialView.swift */,
+				632A4F641CB37E76001D6983 /* ConnectingCirclesView.swift */,
+			);
+			name = Tutorial;
+			sourceTree = "<group>";
+		};
+		634D20631C93901C00A1D4B5 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				634D20661C93905500A1D4B5 /* ContainerViewController.swift */,
+				634D20681C93906A00A1D4B5 /* CenterViewController.swift */,
+				634D206E1C93909400A1D4B5 /* SideMenu */,
+				6358738F1CF8924900B9B6FD /* SplashScreenView.swift */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		634D206E1C93909400A1D4B5 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				634D206A1C93907F00A1D4B5 /* SideMenuViewController.swift */,
+				634D206C1C93908F00A1D4B5 /* SideMenuView.swift */,
+			);
+			name = SideMenu;
+			sourceTree = "<group>";
+		};
+		6353E1071CBC14E1008117B3 /* Deprecated (but still loved) */ = {
+			isa = PBXGroup;
+			children = (
+				63A28B0E1CA33555000826DC /* Invite (Deprecated) */,
+				630D7BEB1CA87AB600D85C86 /* Old Time Selection */,
+			);
+			name = "Deprecated (but still loved)";
+			sourceTree = "<group>";
+		};
+		6392EF761C976784003C29CE /* EventDetails */ = {
+			isa = PBXGroup;
+			children = (
+				63AD31E41C979EFE0086B919 /* DetailsTabBarController.swift */,
+				6392EF771C97678C003C29CE /* Details */,
+				6392EF781C976796003C29CE /* Messages */,
+				6392EF791C97679C003C29CE /* Results */,
+			);
+			name = EventDetails;
+			sourceTree = "<group>";
+		};
+		6392EF771C97678C003C29CE /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				6392EF6A1C976732003C29CE /* EventDetailsViewController.swift */,
+				6392EF6C1C976740003C29CE /* EventDetailsView.swift */,
+				63AD31E21C978EF70086B919 /* GroupMemberCell.swift */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
+		6392EF781C976796003C29CE /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				6392EF6E1C97674F003C29CE /* EventMessagesViewController.swift */,
+				6392EF701C97675A003C29CE /* EventMessagesView.swift */,
+				6350145E1D050F7C00864A73 /* IncomingChatCell.swift */,
+				635014601D050F8700864A73 /* OutgoingChatCell.swift */,
+				637B5BD11D07D6FB007C8920 /* MessageInputView.swift */,
+			);
+			name = Messages;
+			sourceTree = "<group>";
+		};
+		6392EF791C97679C003C29CE /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				6353E1081CBC1909008117B3 /* EventResultsViewController.swift */,
+				6353E10A1CBC1911008117B3 /* EventResultsView.swift */,
+				6353E10C1CBC1983008117B3 /* EventResultsCell.swift */,
+				6353E10E1CBC1F53008117B3 /* ResponseCell.swift */,
+				6353E1101CBC5068008117B3 /* ResultsFilterView.swift */,
+			);
+			name = Results;
+			sourceTree = "<group>";
+		};
+		6395B1231C741969008D0ED5 = {
+			isa = PBXGroup;
+			children = (
+				6395B12F1C741969008D0ED5 /* AppDelegate.swift */,
+				6395B12E1C741969008D0ED5 /* Windo */,
+				6353E1071CBC14E1008117B3 /* Deprecated (but still loved) */,
+				6395B12D1C741969008D0ED5 /* Products */,
+				B63E32AC29DC3D2246CFA789 /* Pods */,
+				05B6C5CCC94A9C36AD97AFD0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6395B12D1C741969008D0ED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6395B12C1C741969008D0ED5 /* Windo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6395B12E1C741969008D0ED5 /* Windo */ = {
+			isa = PBXGroup;
+			children = (
+				6395B15C1C742181008D0ED5 /* WindoConstants.swift */,
+				632A4F611CB312CE001D6983 /* Tutorial */,
+				634D20631C93901C00A1D4B5 /* Navigation */,
+				63290F551D2DEDB00099741A /* PhoneNumber Input */,
+				6395B1541C741CB6008D0ED5 /* Login */,
+				6395B1481C741B9E008D0ED5 /* Home */,
+				6392EF761C976784003C29CE /* EventDetails */,
+				6395B1591C741F26008D0ED5 /* EventCreation */,
+				63A868401D006997002978F7 /* Settings */,
+				63A868471D00937C002978F7 /* Misc. Views */,
+				6395B1391C741969008D0ED5 /* Assets.xcassets */,
+				6395B14E1C741C46008D0ED5 /* Model */,
+				639973EF1D306EF3002C1845 /* Protocols */,
+				639973EA1D3049EB002C1845 /* Managers */,
+				6395B14F1C741C55008D0ED5 /* App Files */,
+				6395B1491C741BB4008D0ED5 /* Utility Extensions */,
+			);
+			path = Windo;
+			sourceTree = "<group>";
+		};
+		6395B1481C741B9E008D0ED5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6395B1501C741C8B008D0ED5 /* HomeViewController.swift */,
+				6395B1521C741C97008D0ED5 /* HomeView.swift */,
+				6395B1551C741D3F008D0ED5 /* EventCell.swift */,
+				6392EF631C974CDA003C29CE /* EventHeaderCell.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		6395B1491C741BB4008D0ED5 /* Utility Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6395B1461C741AFE008D0ED5 /* APConstraints.swift */,
+				6395B14A1C741BDD008D0ED5 /* UIColor+Windo.swift */,
+				63E7E1861C93A49B00AF6301 /* UIFont+Windo.swift */,
+				6395B14C1C741BEB008D0ED5 /* GHButton.swift */,
+				6383D84C1CA463BB008F23B8 /* NSDate+Windo.swift */,
+				6353E1121CBC6318008117B3 /* UIString+.swift */,
+				6359968F1D0B76DD00F506D1 /* UIViewController+Windo.swift */,
+				639973F01D3081EB002C1845 /* UIControl+Target.swift */,
+			);
+			name = "Utility Extensions";
+			sourceTree = "<group>";
+		};
+		6395B14E1C741C46008D0ED5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6395B1361C741969008D0ED5 /* Windo.xcdatamodeld */,
+				63B35D451CF88783008761F5 /* User.swift */,
+				63B35D3F1CF88700008761F5 /* Event.swift */,
+				63B35D411CF8871E008761F5 /* Windo.swift */,
+				63B35D471CF889A7008761F5 /* Message.swift */,
+				635873911CF8971800B9B6FD /* DataProvider.swift */,
+				631B59D41D04802B00BC32E8 /* UserManager.swift */,
+				81C5C0CB1D0A394200BD057A /* UserProfile.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6395B14F1C741C55008D0ED5 /* App Files */ = {
+			isa = PBXGroup;
+			children = (
+				63E7E17C1C939A6F00AF6301 /* Fonts */,
+				6395B13B1C741969008D0ED5 /* LaunchScreen.storyboard */,
+				6395B13E1C741969008D0ED5 /* Info.plist */,
+				63B35D491CF88D03008761F5 /* GoogleService-Info.plist */,
+				634EEFA61C8CA255008591D3 /* Windo-Bridging-Header.h */,
+			);
+			name = "App Files";
+			sourceTree = "<group>";
+		};
+		6395B1541C741CB6008D0ED5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6395B1311C741969008D0ED5 /* LoginViewController.swift */,
+				6395B1441C741ADB008D0ED5 /* LoginView.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		6395B1591C741F26008D0ED5 /* EventCreation */ = {
+			isa = PBXGroup;
+			children = (
+				63A28B0B1CA334F5000826DC /* CreateTabBarViewController.swift */,
+				63A28B0D1CA3354A000826DC /* CreateEventDetails */,
+				63FF08F11CB4483E00255A4A /* Time Selection */,
+			);
+			name = EventCreation;
+			sourceTree = "<group>";
+		};
+		639973EA1D3049EB002C1845 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				639973E81D3049E5002C1845 /* AuthManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		639973EF1D306EF3002C1845 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				639973ED1D306C49002C1845 /* Shakes.swift */,
+				639973F21D3083D6002C1845 /* Alerts.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		63A28B0D1CA3354A000826DC /* CreateEventDetails */ = {
+			isa = PBXGroup;
+			children = (
+				6392EF651C9766DE003C29CE /* CreateEventViewController.swift */,
+				6392EF681C9766F6003C29CE /* CreateEventView.swift */,
+				6383D8481CA43A61008F23B8 /* WindoCalendarView.swift */,
+				63A28B131CA36EB0000826DC /* CalendarDayView.swift */,
+				63EA86C41CA9A4640046963B /* WindoKeyboardAccessoryView.swift */,
+				6358C0641C98CF8400C1DD0B /* InviteeCell.swift */,
+				6321D4A31CA1E48300CDB203 /* InviteeHeaderCell.swift */,
+			);
+			name = CreateEventDetails;
+			sourceTree = "<group>";
+		};
+		63A28B0E1CA33555000826DC /* Invite (Deprecated) */ = {
+			isa = PBXGroup;
+			children = (
+				636A9F6B1CA2192D00293BE9 /* InviteViewController.swift */,
+				636A9F6D1CA2193600293BE9 /* InviteView.swift */,
+			);
+			name = "Invite (Deprecated)";
+			path = Windo;
+			sourceTree = "<group>";
+		};
+		63A868401D006997002978F7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				63A8683C1D006986002978F7 /* UserProfileViewController.swift */,
+				63A8683E1D006990002978F7 /* UserProfileView.swift */,
+				63A868411D0069AD002978F7 /* SettingsViewController.swift */,
+				63A868431D0069B6002978F7 /* SettingsView.swift */,
+			);
+			name = Settings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		63A868471D00937C002978F7 /* Misc. Views */ = {
+			isa = PBXGroup;
+			children = (
+				63A868451D009374002978F7 /* WindoAlertView.swift */,
+				63B2CF991D14B765003F4676 /* WindoProfileImageView.swift */,
+				639973EB1D30567D002C1845 /* WindoLoadingIcon.swift */,
+			);
+			name = "Misc. Views";
+			sourceTree = "<group>";
+		};
+		63E7E17B1C939A6100AF6301 /* Graphik Font */ = {
+			isa = PBXGroup;
+			children = (
+				63E7E1721C939A5A00AF6301 /* Graphik-Black.otf */,
+				63E7E1731C939A5A00AF6301 /* Graphik-Bold.otf */,
+				63E7E1741C939A5A00AF6301 /* Graphik-Extralight.otf */,
+				63E7E1751C939A5A00AF6301 /* Graphik-Light.otf */,
+				63E7E1761C939A5A00AF6301 /* Graphik-Medium.otf */,
+				63E7E1771C939A5A00AF6301 /* Graphik-Regular.otf */,
+				63E7E1781C939A5A00AF6301 /* Graphik-Semibold.otf */,
+				63E7E1791C939A5A00AF6301 /* Graphik-Super.otf */,
+				63E7E17A1C939A5A00AF6301 /* Graphik-Thin.otf */,
+			);
+			name = "Graphik Font";
+			sourceTree = "<group>";
+		};
+		63E7E17C1C939A6F00AF6301 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				63E7E17B1C939A6100AF6301 /* Graphik Font */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		63FF08F11CB4483E00255A4A /* Time Selection */ = {
+			isa = PBXGroup;
+			children = (
+				63FF08ED1CB4482D00255A4A /* TimeSelectViewController.swift */,
+				63FF08EF1CB4483500255A4A /* TimeSelectView.swift */,
+				6394638A1CB6B5C2008438C9 /* TimeSelectCollectionViewCell.swift */,
+				63FF08F21CB46EE100255A4A /* TimeView.swift */,
+				630AC0C01CB6EAAF0016E3C7 /* ScrubberCell.swift */,
+			);
+			name = "Time Selection";
+			sourceTree = "<group>";
+		};
+		B63E32AC29DC3D2246CFA789 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBDFF7B6952295E245CCA8A8 /* Pods-Windo.debug.xcconfig */,
+				BC57D5017F04E178835FEE42 /* Pods-Windo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6395B12B1C741969008D0ED5 /* Windo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6395B1411C741969008D0ED5 /* Build configuration list for PBXNativeTarget "Windo" */;
+			buildPhases = (
+				AF530CFCA3DF275BC32256C4 /* Check Pods Manifest.lock */,
+				6395B1281C741969008D0ED5 /* Sources */,
+				6395B1291C741969008D0ED5 /* Frameworks */,
+				6395B12A1C741969008D0ED5 /* Resources */,
+				3457BD3F05452BC3D1EA728F /* Embed Pods Frameworks */,
+				26607F058749C288DE0847C4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Windo;
+			productName = Windo;
+			productReference = 6395B12C1C741969008D0ED5 /* Windo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6395B1241C741969008D0ED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = NelsonJE;
+				TargetAttributes = {
+					6395B12B1C741969008D0ED5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2RF92UCMKX;
+					};
+				};
+			};
+			buildConfigurationList = 6395B1271C741969008D0ED5 /* Build configuration list for PBXProject "Windo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6395B1231C741969008D0ED5;
+			productRefGroup = 6395B12D1C741969008D0ED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6395B12B1C741969008D0ED5 /* Windo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6395B12A1C741969008D0ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E7E17D1C939A8000AF6301 /* Graphik-Black.otf in Resources */,
+				63E7E17E1C939A8000AF6301 /* Graphik-Bold.otf in Resources */,
+				63E7E17F1C939A8000AF6301 /* Graphik-Extralight.otf in Resources */,
+				63E7E1801C939A8000AF6301 /* Graphik-Light.otf in Resources */,
+				63E7E1811C939A8000AF6301 /* Graphik-Medium.otf in Resources */,
+				63B35D4A1CF88D03008761F5 /* GoogleService-Info.plist in Resources */,
+				63E7E1821C939A8000AF6301 /* Graphik-Regular.otf in Resources */,
+				63E7E1831C939A8000AF6301 /* Graphik-Semibold.otf in Resources */,
+				63E7E1841C939A8000AF6301 /* Graphik-Super.otf in Resources */,
+				63E7E1851C939A8000AF6301 /* Graphik-Thin.otf in Resources */,
+				6395B13D1C741969008D0ED5 /* LaunchScreen.storyboard in Resources */,
+				6395B13A1C741969008D0ED5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26607F058749C288DE0847C4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Windo/Pods-Windo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3457BD3F05452BC3D1EA728F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Windo/Pods-Windo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF530CFCA3DF275BC32256C4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6395B1281C741969008D0ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6358C0651C98CF8400C1DD0B /* InviteeCell.swift in Sources */,
+				636A9F6C1CA2192D00293BE9 /* InviteViewController.swift in Sources */,
+				6392EF641C974CDA003C29CE /* EventHeaderCell.swift in Sources */,
+				631B59D51D04802B00BC32E8 /* UserManager.swift in Sources */,
+				63A868461D009374002978F7 /* WindoAlertView.swift in Sources */,
+				634D20691C93906A00A1D4B5 /* CenterViewController.swift in Sources */,
+				63290F5B1D2E0EF90099741A /* InputCharacter.swift in Sources */,
+				6395B1531C741C97008D0ED5 /* HomeView.swift in Sources */,
+				6321D4A41CA1E48300CDB203 /* InviteeHeaderCell.swift in Sources */,
+				63A8683D1D006987002978F7 /* UserProfileViewController.swift in Sources */,
+				6350145F1D050F7C00864A73 /* IncomingChatCell.swift in Sources */,
+				6383D8511CA4AD54008F23B8 /* WindoTimeViewController.swift in Sources */,
+				639973F31D3083D6002C1845 /* Alerts.swift in Sources */,
+				63FF08EE1CB4482D00255A4A /* TimeSelectViewController.swift in Sources */,
+				63290F591D2DEE680099741A /* WindoNumber.swift in Sources */,
+				6353E1111CBC5068008117B3 /* ResultsFilterView.swift in Sources */,
+				63A28B0C1CA334F5000826DC /* CreateTabBarViewController.swift in Sources */,
+				63B35D401CF88700008761F5 /* Event.swift in Sources */,
+				63EA86C51CA9A4640046963B /* WindoKeyboardAccessoryView.swift in Sources */,
+				81C5C0CC1D0A394200BD057A /* UserProfile.swift in Sources */,
+				63290F541D2DEDAB0099741A /* PhoneNumberInputViewController.swift in Sources */,
+				6395B15D1C742181008D0ED5 /* WindoConstants.swift in Sources */,
+				634D206D1C93908F00A1D4B5 /* SideMenuView.swift in Sources */,
+				639973EE1D306C49002C1845 /* Shakes.swift in Sources */,
+				63290F571D2DEE310099741A /* WindoNumberPad.swift in Sources */,
+				630AC0C11CB6EAAF0016E3C7 /* ScrubberCell.swift in Sources */,
+				6392EF711C97675A003C29CE /* EventMessagesView.swift in Sources */,
+				6392EF661C9766DE003C29CE /* CreateEventViewController.swift in Sources */,
+				6392EF6D1C976740003C29CE /* EventDetailsView.swift in Sources */,
+				6392EF6F1C97674F003C29CE /* EventMessagesViewController.swift in Sources */,
+				632A4F651CB37E76001D6983 /* ConnectingCirclesView.swift in Sources */,
+				63B35D461CF88783008761F5 /* User.swift in Sources */,
+				63E7E1871C93A49B00AF6301 /* UIFont+Windo.swift in Sources */,
+				6353E10D1CBC1983008117B3 /* EventResultsCell.swift in Sources */,
+				6392EF691C9766F6003C29CE /* CreateEventView.swift in Sources */,
+				63723CD31D300943008F4502 /* PhoneNumberInputLabel.swift in Sources */,
+				6395B1321C741969008D0ED5 /* LoginViewController.swift in Sources */,
+				6395B1381C741969008D0ED5 /* Windo.xcdatamodeld in Sources */,
+				636A9F6E1CA2193600293BE9 /* InviteView.swift in Sources */,
+				63A868421D0069AD002978F7 /* SettingsViewController.swift in Sources */,
+				63A868441D0069B6002978F7 /* SettingsView.swift in Sources */,
+				637B5BD21D07D6FB007C8920 /* MessageInputView.swift in Sources */,
+				6383D84D1CA463BB008F23B8 /* NSDate+Windo.swift in Sources */,
+				6392EF6B1C976732003C29CE /* EventDetailsViewController.swift in Sources */,
+				6383D8491CA43A61008F23B8 /* WindoCalendarView.swift in Sources */,
+				635873901CF8924900B9B6FD /* SplashScreenView.swift in Sources */,
+				63AD31E51C979EFE0086B919 /* DetailsTabBarController.swift in Sources */,
+				63FF08F31CB46EE100255A4A /* TimeView.swift in Sources */,
+				6383D8571CA4AE8F008F23B8 /* WindoCollectionCell.swift in Sources */,
+				6395B14B1C741BDD008D0ED5 /* UIColor+Windo.swift in Sources */,
+				63A28B141CA36EB0000826DC /* CalendarDayView.swift in Sources */,
+				639973EC1D30567D002C1845 /* WindoLoadingIcon.swift in Sources */,
+				63FF08F01CB4483500255A4A /* TimeSelectView.swift in Sources */,
+				635014611D050F8700864A73 /* OutgoingChatCell.swift in Sources */,
+				6395B1511C741C8B008D0ED5 /* HomeViewController.swift in Sources */,
+				634D20671C93905500A1D4B5 /* ContainerViewController.swift in Sources */,
+				6395B1451C741ADB008D0ED5 /* LoginView.swift in Sources */,
+				639973F11D3081EB002C1845 /* UIControl+Target.swift in Sources */,
+				635873921CF8971800B9B6FD /* DataProvider.swift in Sources */,
+				639973E91D3049E5002C1845 /* AuthManager.swift in Sources */,
+				632A4F601CB312C8001D6983 /* TutorialView.swift in Sources */,
+				6395B1561C741D3F008D0ED5 /* EventCell.swift in Sources */,
+				6395B1471C741AFE008D0ED5 /* APConstraints.swift in Sources */,
+				639973E71D303964002C1845 /* CodeInputLabel.swift in Sources */,
+				635996901D0B76DD00F506D1 /* UIViewController+Windo.swift in Sources */,
+				6353E1131CBC6318008117B3 /* UIString+.swift in Sources */,
+				63290F521D2DED9C0099741A /* PhoneNumberInputView.swift in Sources */,
+				6353E10B1CBC1911008117B3 /* EventResultsView.swift in Sources */,
+				63B35D481CF889A7008761F5 /* Message.swift in Sources */,
+				6394638B1CB6B5C2008438C9 /* TimeSelectCollectionViewCell.swift in Sources */,
+				6395B14D1C741BEB008D0ED5 /* GHButton.swift in Sources */,
+				6353E10F1CBC1F53008117B3 /* ResponseCell.swift in Sources */,
+				632A4F5E1CB312BF001D6983 /* TutorialViewController.swift in Sources */,
+				63AD31E31C978EF70086B919 /* GroupMemberCell.swift in Sources */,
+				63B2CF9A1D14B765003F4676 /* WindoProfileImageView.swift in Sources */,
+				6383D84F1CA4AD46008F23B8 /* WindoTimeView.swift in Sources */,
+				63B35D421CF8871E008761F5 /* Windo.swift in Sources */,
+				63A8683F1D006990002978F7 /* UserProfileView.swift in Sources */,
+				634D206B1C93907F00A1D4B5 /* SideMenuViewController.swift in Sources */,
+				6383D8531CA4AD6C008F23B8 /* WindoTimeCell.swift in Sources */,
+				6395B1301C741969008D0ED5 /* AppDelegate.swift in Sources */,
+				6353E1091CBC1909008117B3 /* EventResultsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6395B13B1C741969008D0ED5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6395B13C1C741969008D0ED5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6395B13F1C741969008D0ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6395B1401C741969008D0ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6395B1421C741969008D0ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBDFF7B6952295E245CCA8A8 /* Pods-Windo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Windo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NelsonJE.Windo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Windo/Windo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6395B1431C741969008D0ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC57D5017F04E178835FEE42 /* Pods-Windo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Windo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NelsonJE.Windo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Windo/Windo-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6395B1271C741969008D0ED5 /* Build configuration list for PBXProject "Windo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6395B13F1C741969008D0ED5 /* Debug */,
+				6395B1401C741969008D0ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6395B1411C741969008D0ED5 /* Build configuration list for PBXNativeTarget "Windo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6395B1421C741969008D0ED5 /* Debug */,
+				6395B1431C741969008D0ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6395B1361C741969008D0ED5 /* Windo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6395B1371C741969008D0ED5 /* Windo.xcdatamodel */,
+			);
+			currentVersion = 6395B1371C741969008D0ED5 /* Windo.xcdatamodel */;
+			path = Windo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6395B1241C741969008D0ED5 /* Project object */;
+}
